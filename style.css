@@ -8,3 +8,22 @@ body
     font-family: "Palatino", "URW Palladio L", serif;
     font-size: 18px;
 }
+
+.header-image
+{
+    position: relative;
+    text-align: center;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-image
+{
+
+}
