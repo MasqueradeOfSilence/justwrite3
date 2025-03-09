@@ -5,7 +5,6 @@ body
 
 .main-paragraph
 {
-    font-family: "Palatino", "URW Palladio L", serif;
     font-size: 18px;
 }
 
@@ -13,6 +12,7 @@ body
 {
     position: relative;
     text-align: center;
+    font-size: 65px;
 }
 
 .centered
@@ -21,9 +21,19 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Garamond, serif;
+    color: black;
 }
 
-#header-image
+.very-top-bar
 {
-
+    background-color: #5980b2;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
 }
