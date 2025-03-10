@@ -5,7 +5,9 @@ body
 
 .main-paragraph
 {
-    font-size: 18px;
+    font-size: 20px;
+    float: left;
+    width: 50%;
 }
 
 .header-image
@@ -33,7 +35,7 @@ body
     text-align: center;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -1;
     width: 100%;
     z-index: 1000; /* Ensure it stays on top */
 }
@@ -50,4 +52,16 @@ body
     left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+#testimonial-image
+{
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+#front-page-encloser
+{
+    text-align: center;
 }
