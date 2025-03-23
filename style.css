@@ -58,11 +58,17 @@ body
     z-index: 1000;
 }
 
-#testimonial-image
+#testimonial-image-box
 {
     color: white;
     float: left;
     width: 50%;
+}
+
+#testimonial-image
+{
+    max-width: 15%;
+    max-height: 15%;
 }
 
 #front-page-encloser
