@@ -67,8 +67,10 @@ body
 
 #testimonial-image
 {
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 85%;
+    max-height: 85%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 #front-page-encloser
