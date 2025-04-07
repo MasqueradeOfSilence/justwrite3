@@ -102,4 +102,15 @@ body
 #learn-more-container
 {
     background-color: #aab7be;
+    width: 100%;
+    margin-top: 450px;
+    position: absolute;
+}
+
+#learn-more-about-our-services
+{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
 }
