@@ -119,3 +119,8 @@ body
     margin-top: 20px;
     font-size: 22px;
 }
+
+#logo-image
+{
+    transform: scale(0.5);
+}
