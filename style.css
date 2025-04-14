@@ -60,7 +60,6 @@ body
     background-color: #b6bacc;
     color: black;
     margin-top: 80px;
-    padding: 45px 20px;
     text-align: center;
     position: fixed;
     top: 0;
@@ -72,6 +71,11 @@ body
 .service-icons
 {
     
+}
+
+#logo-image
+{
+    float: left;
 }
 
 #testimonial-image-box
