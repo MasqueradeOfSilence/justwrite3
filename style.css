@@ -81,6 +81,11 @@ body
     transform: scale(1.5);
 }
 
+.nav-menu
+{
+    
+}
+
 .nav-menu li
 {
     display: inline;
