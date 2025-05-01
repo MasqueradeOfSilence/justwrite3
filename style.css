@@ -83,17 +83,29 @@ body
 
 .nav-menu
 {
-    padding-left: 700px;
+    padding-top: 15px;
+    padding-left: 250px;
 }
 
 .nav-menu li
 {
     display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    font-size: 18px;
 }
 
 .service-icons
 {
     
+}
+
+.active-menu-item
+{
+    background-color: #98b3cf;
+    font-weight: bold;
 }
 
 #logo-image
@@ -103,6 +115,7 @@ body
     margin-right: 1rem;
     transform: none;
 }
+
 .second-from-top-bar p {
     margin: 0;
     font-size: 1.2rem;
