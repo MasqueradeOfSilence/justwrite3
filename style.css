@@ -8,6 +8,21 @@ body
     font-weight: bold;
 }
 
+.topnav-right 
+{
+  float: right;
+}
+
+.very-top-menu
+{
+    background-color: #5980b2;
+}
+
+.upper-link
+{
+    color: white;
+}
+
 .main-paragraph
 {
     font-size: 20px;
