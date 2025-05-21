@@ -32,6 +32,8 @@ body
 {
     float: right;
     font-size: 20px;
+    flex-grow: 10; /* not working */
+    height: 100%; /* not working */
 }
 
 .co-name
@@ -76,9 +78,18 @@ body
 
 .second-from-top
 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: -21px;
+    height: 80px;
+    background-color: purple; /* temp debug */
+    display: flex;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    /* margin-top: -21px; */
+}
+
+.second-from-top-inside
+{
+    /* background-color: azure; temp debug -- same height as parent */
+    height: 100%;
 }
 
 .centered-testimonial
