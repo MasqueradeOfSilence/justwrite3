@@ -9,6 +9,16 @@ body
     background-color: #5980b2;
 }
 
+.the-active-li a
+{
+    color: white;
+}
+
+.the-active-li a:hover
+{
+    color: #5980b2;
+}
+
 .topnav-right 
 {
   float: right;
@@ -26,19 +36,16 @@ body
     font-weight: bold;
     font-family: cursive;
     color: black;
-    flex-grow: 10; /* not working */
-    height: 100%;
 }
 
-.left-half li
+.right-half li
 {
     flex-grow: 10;
     height: 100%;
 }
 
-.right-half li
+.right-half a
 {
-    flex-grow: 10; /* not working */
     height: 100%;
 }
 
@@ -46,8 +53,8 @@ body
 {
     float: right;
     font-size: 20px;
-    flex-grow: 10; /* not working */
-    height: 100%; /* not working */
+    flex-grow: 10;
+    height: 100%;
 }
 
 .co-name
