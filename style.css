@@ -40,7 +40,6 @@ body
 
 .right-half li
 {
-    flex-grow: 10;
     height: 100%;
 }
 
@@ -53,7 +52,6 @@ body
 {
     float: right;
     font-size: 20px;
-    flex-grow: 10;
     height: 100%;
 }
 
@@ -100,8 +98,8 @@ body
 .second-from-top
 {
     height: 80px;
-    background-color: purple; /* temp debug */
-    display: flex;
+    /* background-color: purple; temp debug */
+    /* display: flex; */
     /* padding-top: 20px;
     padding-bottom: 20px; */
     /* margin-top: -21px; */
