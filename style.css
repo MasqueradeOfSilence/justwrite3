@@ -3,6 +3,11 @@ body
     background-color: #b6bacc;
 }
 
+nav.navbar a
+{
+    padding-top: 25px;
+}
+
 .the-active-li
 {
     font-weight: bold;
@@ -28,6 +33,7 @@ body
 .very-top-menu
 {
     background-color: #5980b2;
+    border: solid purple; /* test only */
 }
 
 .left-half
@@ -98,16 +104,11 @@ body
 .second-from-top
 {
     height: 80px;
-    /* background-color: purple; temp debug */
-    /* display: flex; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-    /* margin-top: -21px; */
+    border: solid blue; /* test only -- need to make sure it all fits */
 }
 
 .second-from-top-inside
 {
-    /* background-color: azure; temp debug -- same height as parent */
     height: 100%;
 }
 
@@ -120,20 +121,6 @@ body
     width: 75%;
     font-family: Garamond, serif;
     color: white;
-}
-
-.very-top-bar
-{
-    background-color: #5980b2;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: -1;
-    width: 100%;
-    z-index: 1000; /* Ensure it stays on top */
-    /* border: 2px solid purple; */
 }
 
 .company-name
