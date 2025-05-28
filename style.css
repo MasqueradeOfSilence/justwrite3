@@ -8,6 +8,11 @@ nav.navbar a
     padding-top: 25px;
 }
 
+nav.navbar a:hover
+{
+    font-weight: bold;
+}
+
 .the-active-li
 {
     font-weight: bold;
@@ -33,7 +38,7 @@ nav.navbar a
 .very-top-menu
 {
     background-color: #5980b2;
-    border: solid purple; /* test only */
+    margin-bottom: -2px;
 }
 
 .left-half
@@ -65,7 +70,14 @@ nav.navbar a
 {
     transform: scale(200%);
     margin-left: 100px;
+    margin-top: 15px;
     color: black;
+}
+
+.big-logo-img
+{
+    margin-right: 8px;
+    margin-top: 15px;
 }
 
 .upper-link
@@ -104,7 +116,6 @@ nav.navbar a
 .second-from-top
 {
     height: 80px;
-    border: solid blue; /* test only -- need to make sure it all fits */
 }
 
 .second-from-top-inside
@@ -217,4 +228,15 @@ nav.navbar a
 #logo-image
 {
     transform: scale(0.5);
+}
+
+.invite-to-learn-more
+{
+    font-size: 40px;
+}
+
+.col-md-6
+{
+    padding: 30px;
+    font-size: 30px;
 }
