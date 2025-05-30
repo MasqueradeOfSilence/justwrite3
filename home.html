@@ -10,11 +10,30 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- End bootstrap -->
+         <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
          <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
         <!-- Stylesheet -->
         <link rel="stylesheet" href="style.css">
     </head>
+
+    <script>
+      jQuery(function () {
+    var $els = $('div[id^=centered-testimonial]'),
+        i = 0,
+        len = $els.length;
+
+        $els.slice(1).hide(); // Hide everything but the first
+
+        setInterval(function () {
+            $els.eq(i).fadeOut(function () {
+                i = (i + 1) % len; // Increment and wrap i here
+                $els.eq(i).fadeIn();
+            });
+        }, 2500);
+      }); 
+    </script>
 
     <body>
         <nav class="navbar navbar-light bg-light very-top-menu">
@@ -59,9 +78,14 @@
             <!-- Testimonials box -->
             <div id="testimonial-image-box">
                 <img src="img/promenade.jpg" alt="An image of the Ventura Promenade" id="testimonial-image"></img>
-                <div class="centered-testimonial">"Here is an unbiased testimonial. I have worked with Just Write Court Reporters and they are
+                <div id="centered-testimonial1">"Here is an unbiased testimonial. I have worked with Just Write Court Reporters and they are
                     really amazing. I especially like the free Clif Bars, as my diet (like the diet of most Americans) generally lacks fiber." 
                     -- Chris P. Bacon, Unbiased Person
+                </div>
+                <div id="centered-testimonial2">"I like the location near the ocean." -- Sienna del Mar, Random Person
+                </div>
+                <div id="centered-testimonial3">"The gaming chairs in the conference rooms are absolutely amazing. They make my tush feel like a 
+                  HARDCORE ELON MUSK GAMER." -- Soph A. King
                 </div>
             </div>
             <!-- Basic introduction to the business-->
