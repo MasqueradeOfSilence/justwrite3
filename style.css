@@ -45,7 +45,8 @@ nav.navbar a:hover
 {
     float: left;
     font-weight: bold;
-    font-family: cursive;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
     color: black;
 }
 
