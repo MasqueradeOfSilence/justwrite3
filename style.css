@@ -240,4 +240,5 @@ nav.navbar a:hover
     padding: 30px;
     font-size: 30px;
     border: solid black; /* just for test -- width might be too much */
+    /* indeed, I don't want this to take up the whole window. */
 }
