@@ -212,9 +212,10 @@ nav.navbar a:hover
 #learn-more-container
 {
     background-color: #aab7be;
-    width: 50%;
-    margin-top: 450px;
-    position: absolute;
+    width: 100%;
+    margin-top: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #learn-more-about-our-services
