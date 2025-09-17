@@ -189,6 +189,22 @@ nav.navbar a:hover
     font-size: 20px;
 }
 
+.locate-us
+{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.email-us
+{
+    float: right;
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+
 #testimonial-image
 {
     max-width: 85%;
@@ -224,6 +240,7 @@ nav.navbar a:hover
     text-align: center;
     margin-top: 20px;
     font-size: 22px;
+    padding-bottom: 75px;
 }
 
 #logo-image
@@ -234,12 +251,19 @@ nav.navbar a:hover
 .invite-to-learn-more
 {
     font-size: 40px;
+    padding-top: 75px;
 }
 
 .col-md-6
 {
     padding: 30px;
     font-size: 30px;
-    border: solid black; /* just for test -- width might be too much */
+    /* border: solid black; just for test -- width might be too much */
     /* indeed, I don't want this to take up the whole window. */
+}
+
+.contact-footer
+{
+    background-color: #8192a1;
+    padding: 75px;
 }
