@@ -197,12 +197,20 @@ nav.navbar a:hover
     text-align: center;
 }
 
+.locate-us-title
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .email-us
 {
     float: right;
     width: 50%;
     position: relative;
     text-align: center;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 #testimonial-image
@@ -265,5 +273,13 @@ nav.navbar a:hover
 .contact-footer
 {
     background-color: #8192a1;
-    padding: 75px;
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 675px;
+}
+
+iframe
+{
+    border: 3px solid black;
 }
