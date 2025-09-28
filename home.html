@@ -17,6 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
         <!-- Stylesheet -->
         <link rel="stylesheet" href="style.css">
+        <!-- Captcha source -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
 
     <script>
@@ -150,7 +152,19 @@
                 <p>depos@justwritecr.com</p>
               </div>
             </div>
-            <div class="email-us">Email Us</div>
+            <div class="email-us">
+              <p class="email-us-title">Email Us</p>
+              <input type="text" class="oneLineTextBoxInput" placeholder="Name">
+              <input type="text" class="oneLineTextBoxInput" placeholder="Email Address">
+              <br><br>
+              <textarea rows="10" cols="50" placeholder="Type your email message here..."></textarea>
+              <br>
+                <form action="your_server_side_script.php" method="POST">
+                  <!-- Other form elements -->
+                  <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                  <input type="submit" class="sendMessage" value="Send Message">
+                </form>
+            </div>
         </div>
 
     </body>

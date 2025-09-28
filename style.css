@@ -283,3 +283,24 @@ iframe
 {
     border: 3px solid black;
 }
+
+.oneLineTextBoxInput
+{
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+textarea
+{
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.sendMessage
+{
+    border-radius: 10px;
+    border: 2px solid #5980b2;
+    font-weight: bold;
+    background-color: #5980b2;
+    padding: 15px;
+}
