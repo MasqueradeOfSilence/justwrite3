@@ -303,4 +303,10 @@ textarea
     font-weight: bold;
     background-color: #5980b2;
     padding: 15px;
+    float: left;
+}
+
+.thecaptcha
+{
+    padding-left: 35%;
 }

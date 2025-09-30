@@ -159,11 +159,12 @@
               <br><br>
               <textarea rows="10" cols="50" placeholder="Type your email message here..."></textarea>
               <br>
-                <form action="your_server_side_script.php" method="POST">
-                  <!-- Other form elements -->
-                  <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-                  <input type="submit" class="sendMessage" value="Send Message">
-                </form>
+              <form action="your_server_side_script.php" method="POST" class="captcha">
+                <!-- Other form elements -->
+                <div class="g-recaptcha thecaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                <br>
+                <input type="submit" class="sendMessage" value="Send Message">
+              </form>
             </div>
         </div>
 
