@@ -62,7 +62,7 @@ nav.navbar a:hover
 .right-half
 {
     font-size: 20px;
-    height: 100%;
+    height: 100%; /*Note: fixed takes it out of normal flow and thus this does 100% of whole page, but removing this causes an ugly gap*/
     position: fixed;
     right: 0;
 }
