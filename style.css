@@ -61,9 +61,10 @@ nav.navbar a:hover
 
 .right-half
 {
-    float: right;
     font-size: 20px;
     height: 100%;
+    position: fixed;
+    right: 0;
 }
 
 .co-name
