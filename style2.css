@@ -1,0 +1,315 @@
+body
+{
+    background-color: #b6bacc;
+}
+
+nav.navbar a
+{
+    padding-top: 25px;
+}
+
+nav.navbar a:hover
+{
+    font-weight: bold;
+}
+
+.the-active-li
+{
+    font-weight: bold;
+    background-color: #5980b2;
+}
+
+.the-active-li a
+{
+    color: white;
+}
+
+.the-active-li a:hover
+{
+    color: #5980b2;
+}
+
+.topnav-right 
+{
+  float: right;
+  font-size: 20px;
+}
+
+.very-top-menu
+{
+    background-color: #5980b2;
+    margin-bottom: -2px;
+}
+
+.left-half
+{
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: black;
+    flex-shrink: 0;
+}
+
+.right-half
+{
+    font-size: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right-half li
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.co-name
+{
+    transform: scale(200%);
+    margin-left: 100px;
+    margin-top: 15px;
+    color: black;
+}
+
+.big-logo-img
+{
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+.upper-link
+{
+    color: white;
+}
+
+.main-paragraph
+{
+    font-size: 20px;
+    float: left;
+    width: 50%;
+}
+
+.header-image-div
+{
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -25px;
+    width: 100%;
+    height: 100%;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    font-family: Garamond, serif;
+    color: black;
+}
+
+.second-from-top
+{
+    height: auto;
+    min-height: 120px;
+}
+
+.second-from-top-inside
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#centered-testimonial1, #centered-testimonial2, #centered-testimonial3
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    font-family: Garamond, serif;
+    color: white;
+}
+
+.company-name
+{
+    transform: scale(1.5);
+}
+
+.nav-menu
+{
+    padding-top: 15px;
+    padding-left: 250px;
+}
+
+.nav-menu li
+{
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.nav-menu a
+{
+    color: black;
+}
+
+.service-icons
+{
+    
+}
+
+.active-menu-item
+{
+    background-color: #98b3cf;
+    font-weight: bold;
+}
+
+#logo-image
+{
+    height: 150px;
+    width: auto;
+    margin-right: 1rem;
+    transform: none;
+}
+
+#testimonial-image-box
+{
+    color: white;
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+
+.locate-us
+{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.locate-us-title
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.email-us
+{
+    float: right;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#testimonial-image
+{
+    max-width: 85%;
+    max-height: 85%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#front-page-encloser
+{
+    text-align: center;
+}
+
+#header-image
+{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#learn-more-container
+{
+    background-color: #aab7be;
+    width: 100%;
+    margin-top: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#learn-more-about-our-services
+{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    padding-bottom: 75px;
+}
+
+#logo-image
+{
+    transform: scale(0.5);
+}
+
+.invite-to-learn-more
+{
+    font-size: 40px;
+    padding-top: 75px;
+}
+
+.col-md-6
+{
+    padding: 30px;
+    font-size: 30px;
+    /* border: solid black; just for test -- width might be too much */
+    /* indeed, I don't want this to take up the whole window. */
+}
+
+.contact-footer
+{
+    background-color: #8192a1;
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 675px;
+}
+
+iframe
+{
+    border: 3px solid black;
+}
+
+.oneLineTextBoxInput
+{
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+textarea
+{
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.sendMessage
+{
+    border-radius: 10px;
+    border: 2px solid #5980b2;
+    font-weight: bold;
+    background-color: #5980b2;
+    padding: 15px;
+    float: left;
+}
+
+.thecaptcha
+{
+    padding-left: 35%;
+}
