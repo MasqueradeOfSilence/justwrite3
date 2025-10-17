@@ -15,6 +15,7 @@ body
 .very-top-menu 
 {
     background-color: #5980b2;
+    margin: 0;
 }
 
 .very-top-menu .container-fluid 
@@ -47,8 +48,9 @@ body
 /* Second navigation bar */
 .second-from-top 
 {
-    background-color: white; /* Change to #b6bacc after debug - should not be any space */
+    background-color: #b6bacc;
     padding: 1rem 2rem;
+    margin: 0;
 }
 
 .second-from-top-inside 
