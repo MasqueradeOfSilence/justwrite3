@@ -49,15 +49,14 @@ body
 .second-from-top 
 {
     background-color: #b6bacc;
-    padding: 0rem 2rem; /*todo is this necessary?     padding-top: 25px; try in inner element */
+    padding: 0rem 2rem;
     margin: 0;
 }
 
-.second-from-top-inside 
+.second-from-top-inside
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .left-half 
