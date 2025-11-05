@@ -51,12 +51,17 @@ body
     background-color: #b6bacc;
     padding: 0rem 2rem;
     margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .second-from-top-inside
 {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .left-half 
