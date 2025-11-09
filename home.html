@@ -60,14 +60,21 @@
                 <img src="img/logo1.png" class="big-logo-img" alt="JWCR logo">
                 <div class="co-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just Write <br>Court Reporters</div>
               </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
             </div>
-            <ul class="nav navbar-nav right-half">
-              <li class="active the-active-li"><a href="home.html">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Location</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
+            <div class="collapse navbar-collapse right-half" id="myNavbar">
+              <ul class="nav navbar-nav right-half">
+                <li class="active the-active-li"><a href="home.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </div>
           </div>
         </nav>
         <!-- A nice picture of the pier for a soothing aesthetic -->
@@ -171,6 +178,7 @@
 <script>
   function toggleBurger() 
   {
+    // prob can remove
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
