@@ -142,6 +142,11 @@ body
     display: block;
 }
 
+/* #myNavbar li
+{
+    display: none;
+} */
+
 .centered
  {
     position: absolute;
