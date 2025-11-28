@@ -66,6 +66,21 @@ body
     width: 100%;
 }
 
+/* Debug - the spacing is off. */
+.left-half a {
+    border: 2px solid red; /* See exactly how much space the link takes */
+}
+
+.big-logo-img {
+    border: 2px solid blue; /* See if image has extra space */
+    z-index: 4;
+}
+
+.co-name {
+    border: 2px solid green; /* See if text has extra space */
+    z-index: 4;
+}
+
 .left-half 
 {
     font-style: italic;
@@ -143,11 +158,6 @@ body
     height: auto;
     display: block;
 }
-
-/* #myNavbar li
-{
-    display: none;
-} */
 
 .centered
  {
@@ -361,4 +371,21 @@ textarea
     {
         flex: 1 1 100%;
     }
+
+    .right-half
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) 
+{
+  .the-hamburger
+  {
+    display: none;
+  }
+  .right-half
+  {
+    display: block !important;
+  }
 }
