@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- @author Alex Neville / https://github.com/MasqueradeOfSilence -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome | Just Write Court Reporters</title>
+        <!-- Oh look it's bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- End bootstrap -->
+         <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+         <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style3.css">
+        <!-- Captcha source -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light very-top-menu">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <div class="topnav-right">
+              <ul class="nav navbar-nav">
+                <li><a class="upper-link" href="#"><i class="fas fa-phone"></i> &nbsp; 805.658.2777</a></li>
+                <li><a class="upper-link" href="#"><i class="fa-regular fa-calendar"></i> &nbsp; Schedule a Deposition</a></li>
+                <li><a class="upper-link" href="#"><i class="fa-regular fa-credit-card"></i> &nbsp; Pay Invoice</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="second-from-top">
+          <div class="second-from-top-inside">
+            <div class="left-half">
+              <a class="navbar-brand" href="home.html">
+                <img src="img/logo1.png" class="big-logo-img" alt="JWCR logo">
+                <div class="co-name">Just Write Court Reporters</div>
+              </a>
+            </div>
+            <div class="right-half" id="myNavbar">
+              <div id="right-half-div">
+                <ul class="nav navbar-nav right-half the-right-ul">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="location.html">Location</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li class="active the-active-li"><a href="about.html">About</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-image-div">
+            <img src="img/IMG_2655_size2.jpg" alt="An image of the Ventura Pier" id="header-image"></img>
+            <div class="centered">Ventura, California-based court reporting agency providing services worldwide</div>
+        </div>
+
+        <br><br><br><br><br>
+        <p>Some text</p>
+        <br><br><br><br><br>
+
+        <div class="contact-footer">
+            <div class="locate-us">
+              <p class="locate-us-title">Locate Us</p>
+              <br>
+              <p align="center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5022.623893609467!2d-119.22106110000001!3d34.2765528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9b2afe895e34f%3A0x6b877dedc0dedcc3!2sJust%20Write%20Court%20Reporters!5e1!3m2!1sen!2sus!4v1758247094358!5m2!1sen!2sus" width="450" height="337.5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </p>
+              <div class="contact-info">
+                <p>5450 Telegraph Road, Suite 250-E Ventura, CA 93003</p>
+                <p>805.658.2777 | 800.660.2778</p>
+                <p>depos@justwritecr.com</p>
+              </div>
+            </div>
+            <div class="email-us">
+              <p class="email-us-title">Email Us</p>
+              <p align="center">
+                <input type="text" class="oneLineTextBoxInput" placeholder="Name">
+                <input type="text" class="oneLineTextBoxInput" placeholder="Email Address">
+                <br><br>
+                <textarea rows="10" cols="50" placeholder="Type your email message here..."></textarea>
+                <br>
+                <form action="your_server_side_script.php" method="POST" class="captcha">
+                  <!-- Other form elements -->
+                  <div align="center" class="g-recaptcha thecaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                  <br>
+                  <p align="center">
+                    <input type="submit" class="sendMessage" value="Send Message">
+                  </p>
+                </form>
+              </p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
