@@ -388,7 +388,8 @@ textarea
 
     .header-image-div
     {
-        display: none;
+        /* display: none; */
+        transform: translateY(50px);
     }
 
     .navbar-brand
