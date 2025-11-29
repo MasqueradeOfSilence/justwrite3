@@ -97,7 +97,7 @@ body
 
 .co-name 
 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 1rem;
     padding-left: 1rem;
     color: black;
@@ -246,32 +246,33 @@ ul.right-half li
 {
     text-align: center;
     max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .invite-to-learn-more 
 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 3rem;
 }
 
 #services-menu .row 
 {
-    display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
 
 .col-md-6 
 {
-    flex: 1 1 calc(50% - 1rem);
-    min-width: 250px;
     padding: 2rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+}
+
+.noBlue
+{
+    color: black;
 }
 
 .service-icons 
@@ -280,7 +281,6 @@ ul.right-half li
     margin: 0 auto 1rem;
 }
 
-/* Contact footer - USE GRID */
 .contact-footer 
 {
     background-color: #8192a1;
@@ -290,12 +290,27 @@ ul.right-half li
     gap: 3rem;
 }
 
+/* .locate-us
+{
+    border: 2px solid red;
+} */
+
+/* .email-us
+{
+    border: 2px solid blue;
+} */
+
 .locate-us-title,
 .email-us-title 
 {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.locate-us p
+{
+    font-size: 1.5rem;
 }
 
 .locate-us iframe 
