@@ -68,19 +68,19 @@ body
 }
 
 /* Debug - the spacing is off. */
-.left-half a {
-    border: 2px solid red; /* See exactly how much space the link takes */
+/* .left-half a {
+    border: 2px solid red;
 }
 
 .big-logo-img {
-    border: 2px solid blue; /* See if image has extra space */
+    border: 2px solid blue;
     z-index: 4;
 }
 
 .co-name {
-    border: 2px solid green; /* See if text has extra space */
+    border: 2px solid green;
     z-index: 4;
-}
+} */
 
 .left-half 
 {
@@ -371,13 +371,29 @@ textarea
     
     .right-half 
     {
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.5rem;
+        z-index: 8;
     }
 
-    #myNavbar
+    #right-half-div
+    {
+        /* display: none; */
+    }
+
+    .big-logo-img
+    {
+        display: none !important;
+    }
+
+    .header-image-div
     {
         display: none;
+    }
+
+    .navbar-brand
+    {
+        transform: scale(75%);
     }
     
     .second-from-top-inside 
@@ -396,13 +412,19 @@ textarea
 {
     .co-name
     {
-        display: none;
+        /* font-size: 16px; */
+    }
+
+    .big-logo-img
+    {
+        display: none !important;
     }
 }
 
 .the-hamburger 
 {
     margin-left: auto;
+    transform: translateY(-100%);
 }
 
 @media (min-width: 775px) 
@@ -413,6 +435,6 @@ textarea
   }
   .right-half
   {
-    display: block !important;
+    display: block;
   }
 }

@@ -58,7 +58,7 @@
             <div class="left-half">
               <a class="navbar-brand" href="home.html">
                 <img src="img/logo1.png" class="big-logo-img" alt="JWCR logo">
-                <div class="co-name">Just Write <br>Court Reporters</div>
+                <div class="co-name">Just Write Court Reporters</div>
               </a>
             </div>
             <div class="right-half" id="myNavbar">
@@ -72,9 +72,9 @@
                 </ul>
               </div>
             </div>
-            <a href="javascript:void(0);" class="icon the-hamburger" onclick="toggleBurger()">
+            <!-- <a href="javascript:void(0);" class="icon the-hamburger" onclick="toggleBurger()">
               <i class="fa fa-bars ham-center"></i>
-            </a>
+            </a> -->
           </div>
         </nav>
         <!-- A nice picture of the pier for a soothing aesthetic -->
@@ -179,12 +179,14 @@
   function toggleBurger() 
   {
     var x = document.getElementById("right-half-div");
-    if (x.style.display === "block") 
+    if (x.style.display !== "none") 
     {
       x.style.display = "none";
     } else 
     {
       x.style.display = "block";
+      var y = document.getElementById("the-hamburger");
+      y.style.transform = "translateY(1250px)";
     }
   }
 </script>
