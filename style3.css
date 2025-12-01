@@ -118,7 +118,7 @@ body
     padding: 0;
     list-style: none;
     font-size: 1.25rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .right-half li a 
@@ -300,6 +300,27 @@ ul.right-half li
     border: 2px solid blue;
 } */
 
+#depositionScheduler
+{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#depositionScheduler fieldset
+{
+    width: 50%;
+}
+
+.introductoryParagraph p
+{
+    margin-left: 5rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .locate-us-title,
 .email-us-title 
 {
@@ -389,6 +410,7 @@ textarea
         flex-direction: row;
         gap: 0.5rem;
         z-index: 8;
+        transform: scale(90%) translateX(-8%);
     }
 
     #right-half-div
@@ -424,17 +446,26 @@ textarea
     }
 }
 
-@media (max-width: 845px)
+@media (max-width: 1000px)
 {
     .co-name
     {
-        /* font-size: 16px; */
+        font-size: 2rem;
     }
+}
 
+@media (max-width: 845px)
+{
     .big-logo-img
     {
         display: none !important;
     }
+
+    /* .the-right-ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+    } */
 }
 
 .the-hamburger 
