@@ -245,7 +245,6 @@ ul.right-half li
 #learn-more-about-our-services 
 {
     text-align: center;
-    max-width: 1200px;
     /* margin: 0 auto; */
 }
 
@@ -254,6 +253,10 @@ ul.right-half li
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 3rem;
+}
+.service-info
+{
+    margin-left: 5rem;
 }
 
 #services-menu .row 
