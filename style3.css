@@ -235,6 +235,12 @@ ul.right-half li
     border-radius: 8px;
 }
 
+.highlight-top
+{
+    font-weight: bold;
+    background-color: #98b3cf;
+}
+
 #learn-more-container 
 {
     background-color: #aab7be;
