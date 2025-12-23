@@ -148,22 +148,35 @@
               </div>
             </div>
             <div class="email-us">
-              <p class="email-us-title">Email Us</p>
-              <p align="center">
-                <input type="text" class="oneLineTextBoxInput" placeholder="Name">
-                <input type="text" class="oneLineTextBoxInput" placeholder="Email Address">
-                <br><br>
-                <textarea rows="10" cols="50" placeholder="Type your email message here..."></textarea>
-                <br>
-                <form action="your_server_side_script.php" method="POST" class="captcha">
-                  <!-- Other form elements -->
-                  <div align="center" class="g-recaptcha thecaptcha" data-sitekey="YOUR_SITE_KEY"></div>
-                  <br>
-                  <p align="center">
-                    <input type="submit" class="sendMessage" value="Send Message">
-                  </p>
-                </form>
-              </p>
+                <p class="email-us-title">Email Us</p>
+    <form
+      action="mailto:depos@justwritecr.com?subject=Website%20Contact"
+      method="post"
+      enctype="text/plain"
+      align="center">
+      <input
+        type="text"
+        name="name"
+        class="oneLineTextBoxInput"
+        placeholder="Name"
+        required>
+      <input
+        type="email"
+        name="email"
+        class="oneLineTextBoxInput"
+        placeholder="Email Address"
+        required>
+      <br><br>
+      <textarea
+        name="message"
+        rows="10"
+        cols="50"
+        placeholder="Type your email message here..."
+        required></textarea>
+      <br><br>
+      <input type="submit" class="sendMessage" value="Send Message">
+      </form>
+    </p>
             </div>
         </div>
 
