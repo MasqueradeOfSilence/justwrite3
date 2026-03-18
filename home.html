@@ -170,7 +170,7 @@
             <div class="email-us">
   <p class="email-us-title">Email Us</p>
     <form
-      action="mailto:depos@justwritecr.com?subject=Website%20Contact"
+      action="emailer.php"
       method="post"
       enctype="text/plain"
       align="center">
@@ -185,6 +185,12 @@
         name="email"
         class="oneLineTextBoxInput"
         placeholder="Email Address"
+        required>
+      <input
+        type="text"
+        name="subject"
+        class="oneLineTextBoxInput"
+        placeholder="Subject"
         required>
       <br><br>
       <textarea
